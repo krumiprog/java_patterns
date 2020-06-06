@@ -8,11 +8,11 @@ public class Main {
     public static void main(String[] args) {
         Factory factory = getFactory(Types.FIRST);
         Product product = factory.produceProduct();
-        product.getDescripton();
+        product.getDescription();
 
         factory = getFactory(Types.SECOND);
         product = factory.produceProduct();
-        product.getDescripton();
+        product.getDescription();
     }
 
     public static Factory getFactory(Types types) {
